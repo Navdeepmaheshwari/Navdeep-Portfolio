@@ -8,7 +8,7 @@ export const Projects = () => {
           My Recent <strong className="text-[#cd5ff8]">Projects </strong>
         </h1>
         <p style={{ color: "white" }} className="px-2 pb-2">
-          Here are a few projects I've worked on recently.
+          Here are a few projects I&apos;ve worked on recently.
         </p>
         <div
           className="sm:grid  sm:grid-cols-2 lg:grid-cols-3 grid-flow-row auto-row-max mx-auto"

@@ -41,7 +41,7 @@ export const About = () => {
                 style={{ paddingBottom: "20px" }}
                 className="text-center text-4xl "
               >
-                Know Who <strong className="text-[#c770f0]">I'M</strong>
+                Know Who <strong className="text-[#c770f0]">I&apos;M</strong>
               </h1>
               <div className="text-l text-left">
                 <div className="">

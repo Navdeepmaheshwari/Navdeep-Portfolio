@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   AiFillGithub,
@@ -15,12 +16,12 @@ export const Footer = () => {
         <div className="footer-copywright">
           <h3>
             Designed and Developed by{" "}
-            <a href="/">
+            <Link href="/">
               {" "}
               <span className="text-[#cd5ff8] font-bold">
                 Navdeep Maheshwari
               </span>
-            </a>
+            </Link>
           </h3>
         </div>
 

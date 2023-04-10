@@ -22,7 +22,7 @@ export const Main = () => {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I&apos;M
                 <strong className="main-name"> Navdeep Maheshwari</strong>
               </h1>
 
