@@ -69,7 +69,7 @@ export const Projects = () => {
 
           <div className=" project-card">
             <ProjectCard
-              imgPath="/projects/Spam.png"
+              imgPath="/projects/spam.png"
               title="Spam Detection"
               tech={["Flask", "Machine Learning", "Python"]}
               description="Spam Detector is a machine learning application designed to detect and filter out spam messages.The application is powered by Flask, a Python web framework, which connects the machine learning model to the frontend. 
