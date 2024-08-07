@@ -331,7 +331,7 @@ canvas {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 3em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -353,7 +353,7 @@ canvas {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  /* transform: scale(1.05) !important; */
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
@@ -437,7 +437,7 @@ canvas {
 
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 3em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -458,7 +458,7 @@ canvas {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  /* transform: scale(1.05) !important; */
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
   background-color: rgba(65, 21, 83, 0.883) !important;

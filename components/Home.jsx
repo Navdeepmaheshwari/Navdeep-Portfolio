@@ -79,18 +79,16 @@ export const Main = () => {
                 </p> */}
                 <div className="">
                   <div className="">
-                    <blockquote className="blockquote px-5  mb-0">
+                    <blockquote className="blockquote sm:px-5  mb-0">
                       <p
                         className="px-2 lg:px-5 "
                         style={{ lineHeight: "2rem", textAlign: "justify" }}
                       >
-                        Hello, I am a passionate MERN Stack Developer,
-                        Competitive Programmer, and currently an undergraduate
-                        student pursuing{" "}
-                        <span className="text-[#c770f0] font-bold">
-                          Electronics and Communication Engineering
+                        Hello, I am a passionate Software Developer,
+                        Competitive Programmer and a recent graduate in 
+                        <span className="text-[#c770f0] font-bold"> Electronics and Communication Engineering
                         </span>{" "}
-                        at the{" "}
+                        from the{" "}
                         <span className="text-[#c770f0] font-bold">
                           {" "}
                           Indian Institute of Information Technology Surat.
@@ -134,7 +132,7 @@ export const Main = () => {
               </div> */}
               <div className="w-[20rem] h-[20rem] mx-auto my-2 lg:mx rounded-full overflow-hidden">
                 <img
-                  src="/nav.JPG"
+                  src="/Profile.jpeg"
                   alt="your image"
                   className="w-full h-full object-cover"
                 />

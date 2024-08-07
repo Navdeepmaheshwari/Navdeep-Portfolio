@@ -5,7 +5,7 @@ export const TypeWriter = () => {
     <Typewriter
       options={{
         strings: [
-          "Developer",
+          "Software Developer",
           "Machine Learning Enthusiast",
           "MERN Stack Developer",
           "Competitive Programmer",
