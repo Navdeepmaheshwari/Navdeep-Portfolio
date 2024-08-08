@@ -15,8 +15,8 @@ export const Resume = () => {
     setWidth(window.innerWidth);
   }, []);
   return (
-    <section className="mt-[5rem]  mx-auto">
-      <div className="  resume-section	">
+    <section className="mt-[5rem] mb-[2rem]  mx-auto">
+      <div className=" resume-section	">
         <div
           className="flex justify-center items-center "
           /* style={{ justifyContent: "center", position: "relative" }} */
@@ -43,21 +43,7 @@ export const Resume = () => {
           </Document>
         </div>
 
-        <div
-          className="row"
-          style={{ justifyContent: "center", position: "relative" }}
-        >
-          {/* <input
-              type="button"
-              variant="primary"
-              href={resumeLink}
-              target="_blank"
-              style={{ maxWidth: "250px" }}
-            >
-              <AiOutlineDownload />
-              &nbsp;Download CV
-            </input> */}
-        </div>
+        
       </div>
     </section>
   );

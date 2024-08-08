@@ -25,12 +25,11 @@ export default function ResumePage() {
       <Head>
         <title>Navdeep Maheshwari</title>
       </Head>
-      <div className="">
+    {/*   <div className="">
         <nav className=" fixed left-0 top-4 lg:bottom-8 w-full overflow-hidden h-fit z-10 ">
           <div className="mx-auto   flex justify-between ">
             <div className="mx-auto">
               <section className="relative mx-auto w-[90vw] lg:w-[75vw] ">
-                {/* <!-- navbar --> */}
                 <nav className="flex   w-full bg-blue-600/  backdrop-blur-lg text-white rounded-lg ">
                   <div className="px-1 xl:px-4 py-1 flex w-full items-center">
                     <Link
@@ -38,9 +37,9 @@ export default function ResumePage() {
                       href="/"
                     >
                       <Image src="/nm2.png" alt="logo" width="74" height="70" />
-                      {/* Logo Here. */}
+                    
                     </Link>
-                    {/* <!-- Nav Links --> */}
+                    
                     {phone && (
                       <ul className="flex flex-col md:hidden mx-auto font-semibold font-heading ">
                         <li>
@@ -146,8 +145,8 @@ export default function ResumePage() {
                       </li>
                     </ul>
 
-                    {/* <!-- Header Icons --> */}
-                    <div className="hidden md:flex items-center space-x-5 items-center">
+                   
+                    <div className="hidden md:flex  space-x-5 items-center">
                       <a
                         className="flex items-center hover:text-gray-200"
                         href="https://github.com/Navdeepmaheshwari"
@@ -157,10 +156,7 @@ export default function ResumePage() {
                       </a>
                     </div>
                   </div>
-                  {/* <!-- Responsive navbar --> */}
-                  {/*  <a className="md:hidden flex mr-6 items-center" href="#">
-                  <BsGithub className="text-2xl hover:text-[#cd5ff8]" />
-                </a> */}
+                 
                   <a
                     className="flex-end navbar-burger self-center mr-5 md:hidden"
                     href="#"
@@ -171,18 +167,20 @@ export default function ResumePage() {
                     <GiHamburgerMenu className="text-2xl text-[#cd5ff8]" />
                   </a>
                 </nav>
-                {/*  {phone && (
-                <>
-                 
-                </>
-              )} */}
+               
               </section>
             </div>
           </div>
         </nav>
+      </div> */}
+       <div className="bg-white dark:bg-black">
+        <Navbar />
       </div>
       <Resume />
+      <div className=" hidden sm:block">
+
       <Footer />
+      </div>
     </>
   );
 }

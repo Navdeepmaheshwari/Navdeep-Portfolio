@@ -573,3 +573,7 @@ canvas {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+.no-scroll {
+  overflow: hidden;
+}
